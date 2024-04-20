@@ -1,0 +1,88 @@
+/***************************** Header Admin  ******************/
+.Admin-DropDown {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+.Link {
+  text-decoration: none;
+  opacity: 0.9;
+}
+/* Link Section */
+#links {
+  font-size: 20px;
+}
+#links .nav-link {
+  color: #fff;
+  clip-path: polygon(95% 0, 99% 50%, 94% 100%, 0% 100%, 4% 50%, 0% 0%);
+}
+/**************************** NAv Bar  ****************************************/
+.admin-header,
+.admin-footer {
+  background-color: rgb(50, 129, 139);
+}
+
+/**************************** Admin LAnd **********************************/
+#navLink {
+  width: 90%;
+}
+.customer {
+  margin-top: 10%;
+  width: 100%;
+  margin: 10% auto 0 auto;
+}
+.table-head {
+  background-color: #32818b;
+}
+/************************** Listing Data ********************************/
+.Listing {
+  margin: 9% 5%;
+}
+/********************** Table Styling ************/
+.tr-Head th {
+  background-color: rgb(65, 145, 151, 0.8);
+  color: #fff;
+  font-weight: 500;
+}
+/******************** Edit Body  **************************/
+.btn-edit:hover {
+  border: 1px solid rgb(50, 129, 139);
+}
+.first-Control {
+  background-color: rgb(65, 145, 151, 0.2);
+  font-weight: 600;
+}
+/******************** Delete Button ****************/
+.btn-dlt:hover {
+  border: 1px solid red;
+}
+
+/********** Icons **************/
+.actions {
+  display: flex;
+}
+.icons {
+  width: 22px;
+  height: 22px;
+}
+.Sucess-but {
+  background-color: #d988b9;
+  color: #fff;
+  border: 0;
+}
+.Sucess-but:hover {
+  background-color: #b0578d;
+  color: #fff;
+}
+.Footer {
+  background-color: rgb(50, 129, 139, 0.2);
+}
+.Footer .lastButton,
+.Add-Header {
+  background-color: rgb(50, 122, 132);
+  color: #fff;
+  border: 0;
+}
+.lastButton:hover {
+  background-color: rgb(0, 158, 179);
+}

@@ -1,0 +1,52 @@
+.parent {
+  display: flex;
+}
+.parent div {
+  width: 50%;
+}
+.parent div:last-child {
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+nav a {
+  color: #fff;
+}
+.foot {
+  background-color: #32818b;
+}
+
+.links {
+  color: #fff;
+  font-size: 20px;
+}
+
+.Text-Container {
+  color: #025c68;
+}
+.Text-Container input {
+  background-color: #dff1f3;
+  color: #025c68;
+}
+.Log button {
+  background-color: #42a8b6;
+  border-color: #42a8b6;
+}
+.Log button:hover {
+  background-color: #025c68;
+  border-color: #025c68;
+}
